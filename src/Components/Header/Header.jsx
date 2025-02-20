@@ -126,7 +126,7 @@ const Header = () => {
                 NASA+
               </a>
               <p
-                className="text-white px-2 border border-red-500 text-[10px] transition duration-300 group-hover:bg-[#B60109] rounded-[2px] cursor-pointer uppercase"
+                className="text-white tracking-[4px]  px-2 border border-red-500 text-[10px] transition duration-300 group-hover:bg-[#B60109] rounded-[2px] cursor-pointer uppercase"
                 style={{ fontFamily: "'DM Mono', monospace" }}
               >
                 Live
