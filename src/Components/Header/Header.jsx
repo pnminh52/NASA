@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="h-21 sm:h-23 bg-black  px-9 mx-auto">
+    <div className="h-21 sm:h-23 bg-black  px-6 mx-auto">
       {/* Mobile Layout */}
       <div className="block sm:hidden flex justify-between items-center h-full">
         {/* Mobile Menu Icon */}
