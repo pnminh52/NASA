@@ -180,7 +180,7 @@ const Home = () => {
           </p>
           <button
             style={{ fontFamily: '"DM Sans", sans-serif' }}
-            className="hover:bg-[#8B0A03] transition duration-300 cursor-pointer rounded-md bg-[#f64137] px-6 py-2 text-white font-bold text-[20px]"
+            className="hover:bg-[#8B0A03] transition duration-300 cursor-pointer rounded-md bg-[#D83933] px-6 py-1 text-white font-bold text-[23px]"
           >
             Learn More
           </button>

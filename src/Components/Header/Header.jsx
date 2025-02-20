@@ -18,7 +18,7 @@ const Header = () => {
 
         {/* NASA Logo */}
         <img
-          className="w-auto h-14 cursor-pointer"
+          className="w-auto h-13 cursor-pointer"
           src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo@2x.png"
           alt="NASA"
         />
@@ -70,7 +70,7 @@ const Header = () => {
         </div>
         <div>
           <img
-            className="w-auto h-14 cursor-pointer absolute left-1/2 top-1/2 -translate-y-1/2"
+            className="w-auto h-13 cursor-pointer absolute left-1/2 top-1/2 -translate-y-1/2"
             src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo@2x.png"
             alt="NASA"
           />
