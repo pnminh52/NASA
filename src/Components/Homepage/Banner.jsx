@@ -1,12 +1,13 @@
 import React from "react";
 
-const Home = () => {
+const Banner = () => {
   return (
-    <div className=" relative">
+    <div >
+        <div className=" relative">
       {/* Wrapper for Image + Gradient */}
-      <div className="relative w-full h-full">
+      <div className=" w-full h-full">
         {/* Gradient Overlay (Only Covers Image) */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/30"></div>
 
         {/* Image */}
         <img
@@ -39,7 +40,7 @@ const Home = () => {
           </p>
           <button
             style={{ fontFamily: '"DM Sans", sans-serif' }}
-            className="hover:bg-[#8B0A03] transition duration-300 cursor-pointer rounded-md bg-[#f64137] px-6 py-2 text-white font-bold text-[20px]"
+            className="hover:bg-[#8B0A03] transition duration-300 cursor-pointer rounded-sm bg-[#f64137] px-5 py-2 text-white font-bold text-[20px]"
           >
             Learn More
           </button>
@@ -48,19 +49,19 @@ const Home = () => {
 
       <div className="flex  absolute bottom-0 left-6 right-8 justify-between items-center">
         <div className=" gap-4 py-6 grid grid-cols-3">
-          <div className=" text-white w-[280px] border-t border-t border-gray-500">
+          <div className=" text-white w-[280px] border-t border-t border-gray-600">
             <p
               style={{ fontFamily: "'DM Mono', monospace" }}
               className="tracking-[4px] mt-4 text-xs"
             >
               TRACKING ASTEROIDS{" "}
             </p>
-            <div className="flex mt-4 items-center gap-2">
+            <div className="flex mt-4 group items-center gap-2">
               <p className=" font-semibold cursor-pointer text-lg">
                 Planetary Defense{" "}
               </p>
               <svg
-                className="w-6 transition duration-300 hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-6 rotate-320"
+                className="w-5 transition duration-300 group-hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-5 rotate-320"
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -72,19 +73,19 @@ const Home = () => {
               </svg>
             </div>
           </div>
-          <div className=" text-white w-[280px] truncate  border-t border-t border-gray-500">
+          <div className=" text-white w-[280px] truncate  border-t border-t border-gray-600">
             <p
               style={{ fontFamily: "'DM Mono', monospace" }}
               className="tracking-[4px] mt-4 text-xs"
             >
               Monitoring Asteroid 2025 YR4{" "}
             </p>
-            <div className="flex mt-4 items-center gap-2">
+            <div className="flex mt-4 group items-center gap-2">
               <p className=" font-semibold cursor-pointer text-lg">
                 Latest Analyses{" "}
               </p>
               <svg
-                className="w-6 transition duration-300 hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-6 rotate-320"
+                className="w-5 transition duration-300 group-hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-5 rotate-320"
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -96,19 +97,19 @@ const Home = () => {
               </svg>
             </div>
           </div>
-          <div className=" text-white w-[280px]  border-t border-t border-gray-500">
+          <div className=" text-white w-[280px]  border-t border-t border-gray-600">
             <p
               style={{ fontFamily: "'DM Mono', monospace" }}
               className="tracking-[4px] mt-4 text-xs"
             >
               ASTEROID HUNTER{" "}
             </p>
-            <div className="flex mt-4 items-center gap-2">
+            <div className="flex mt-4 group items-center gap-2">
               <p className=" font-semibold cursor-pointer text-lg">
                 NEO Surveyor{" "}
               </p>
               <svg
-                className="w-6 transition duration-300 hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-6 rotate-320"
+                className="w-5 transition duration-300 group-hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-5 rotate-320"
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -180,7 +181,7 @@ const Home = () => {
           </p>
           <button
             style={{ fontFamily: '"DM Sans", sans-serif' }}
-            className="hover:bg-[#8B0A03] transition duration-300 cursor-pointer rounded-md bg-[#D83933] px-6 py-1 text-white font-bold text-[23px]"
+            className="hover:bg-[#8B0A03] transition duration-300 cursor-pointer rounded-sm bg-[#D83933] px-4 py-1 text-white font-bold text-[23px]"
           >
             Learn More
           </button>
@@ -189,19 +190,19 @@ const Home = () => {
         </div>
         <div className="absolute bottom-4 px-6 w-full space-y-2">
           
-            <div className="  text-white w-full border-t border-t border-gray-500">
+            <div className="  text-white w-full border-t border-t border-gray-600">
             <p
               style={{ fontFamily: "'DM Mono', monospace" }}
               className="tracking-[4px] mt-4 text-xs"
             >
               TRACKING ASTEROIDS{" "}
             </p>
-            <div className="flex mt-4 items-center gap-2">
-              <p className=" font-semibold cursor-pointer text-lg">
+            <div className="flex mt-4 group items-center gap-2">
+              <p className="  font-semibold cursor-pointer text-lg">
                 Planetary Defense{" "}
               </p>
               <svg
-                className="w-6 transition duration-300 hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-6 rotate-320"
+                className="w-5 transition duration-300 group-hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-5 rotate-320"
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -213,19 +214,19 @@ const Home = () => {
               </svg>
             </div>
           </div>
-          <div className="  text-white w-full border-t border-t border-gray-500">
+          <div className="  text-white w-full border-t border-t border-gray-600">
             <p
               style={{ fontFamily: "'DM Mono', monospace" }}
               className="tracking-[4px] mt-4 text-xs"
             >
                Monitoring Asteroid 2025 YR4{" "}
             </p>
-            <div className="flex mt-4 items-center gap-2">
+            <div className="flex mt-4 group items-center gap-2">
               <p className=" font-semibold cursor-pointer text-lg">
               Latest Analyses{" "}
               </p>
               <svg
-                className="w-6 transition duration-300 hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-6 rotate-320"
+                className="w-5 transition duration-300 group-hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-5 rotate-320"
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -237,19 +238,19 @@ const Home = () => {
               </svg>
             </div>
           </div>
-          <div className="  text-white w-full border-t border-t border-gray-500">
+          <div className="  text-white w-full border-t border-t border-gray-600">
             <p
               style={{ fontFamily: "'DM Mono', monospace" }}
               className="tracking-[4px] mt-4 text-xs"
             >
               ASTEROID HUNTER{" "}
             </p>
-            <div className="flex mt-4 items-center gap-2">
+            <div className="flex mt-4 group items-center gap-2">
               <p className=" font-semibold cursor-pointer text-lg">
               NEO Surveyor{" "}
               </p>
               <svg
-                className="w-6 transition duration-300 hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-6 rotate-320"
+                className="w-5 transition duration-300 group-hover:bg-[#B60109] bg-[#F64137] cursor-pointer rounded-full h-5 rotate-320"
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -268,7 +269,8 @@ const Home = () => {
 
       
     </div>
+    </div>
   );
 };
 
-export default Home;
+export default Banner;
