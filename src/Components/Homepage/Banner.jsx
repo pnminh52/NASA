@@ -1,6 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 
 const Banner = () => {
+
+    const [isPlaying, setIsPlaying]=useState(false)
+    const handleToggle=()=>{
+      setIsPlaying((prev)=>!prev)
+    }
+  
+
   return (
     <div >
         <div className=" relative">
@@ -12,7 +19,7 @@ const Banner = () => {
         {/* Image */}
         <img
           className="w-full h-[650px] object-cover"
-          src="https://www.nasa.gov/wp-content/uploads/2025/02/2024yr4-discovery-atlas.gif?w=650"
+          src="https://www.nasa.gov/wp-content/uploads/2025/02/orion-nebula-xlarge-web-jpg-webp.jpeg"
           alt="NASA"
         />
       </div>
@@ -147,21 +154,34 @@ const Banner = () => {
     <div className="block sm:hidden">
         <div className="absolute top-2 px-6">
         <div className="flex gap-4 items-center">
-          <div className="border-white border-2 rounded-full">
+          <div className="border border-[#E1E2E2] rounded-full">
            
-                <img className="w-11 h-11 rounded-full" src="https://www.nasa.gov/wp-content/uploads/2025/02/2024yr4-discovery-atlas.gif?w=650" alt="" />
+                <img className="w-13 h-13 rounded-full" src="https://www.nasa.gov/wp-content/uploads/2025/02/orion-nebula-xlarge-web-jpg-webp.jpeg" alt="" />
             
            
           </div>
-          <div className=" bg-[#4e4e4e] cursor-pointer rounded-full p-4 flex items-center justify-center">
-            <svg
-              className="w-4 h-4"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="m2 1v22h7v-22zm13 0v22h7v-22z" fill="white"></path>
-            </svg>
-          </div>
+          <div
+      className="border-1 border-[#4e4e4e] bg-[#4e4e4e] cursor-pointer rounded-full w-13 h-13 flex text-center items-center justify-center"
+      onClick={handleToggle}
+    >
+     
+        <svg
+          className="w-6 h-6"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="m2 1v22h7v-22zm13 0v22h7v-22z" fill="white"></path>
+        </svg>
+     
+        {/* <svg
+          className="w-6 h-6"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="m22 12-20 11v-22l10 5.5z" fill="white"></path>
+        </svg> */}
+     
+    </div>
         </div>
         <div className="mt-7 space-y-4">
         <p

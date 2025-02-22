@@ -414,7 +414,7 @@ const Content = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/30"></div>
         <img
           className="h-[700px] w-auto object-cover"
-          src="https://www.nasa.gov/wp-content/uploads/2025/02/15766576390-130559d3f3-o.jpg?resize=1536,917"
+          src="https://www.nasa.gov/wp-content/uploads/2025/02/2024yr4-discovery-atlas.gif?w=650"
           alt=""
         />
         <div className="absolute top-[35%] px-10 space-y-4">
