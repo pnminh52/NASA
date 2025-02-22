@@ -49,7 +49,7 @@ const Banner = () => {
 
       <div className="flex  absolute bottom-0 left-6 right-8 justify-between items-center">
         <div className=" gap-4 py-6 grid grid-cols-3">
-          <div className=" text-white w-[280px] border-t border-t border-gray-600">
+          <div className=" text-white w-[280px]  border-t border-gray-600">
             <p
               style={{ fontFamily: "'DM Mono', monospace" }}
               className="tracking-[4px] mt-4 text-xs"
@@ -73,12 +73,12 @@ const Banner = () => {
               </svg>
             </div>
           </div>
-          <div className=" text-white w-[280px] truncate  border-t border-t border-gray-600">
+          <div className=" text-white w-[280px] truncate   border-t border-gray-600">
             <p
               style={{ fontFamily: "'DM Mono', monospace" }}
               className="tracking-[4px] mt-4 text-xs"
             >
-              Monitoring Asteroid 2025 YR4{" "}
+              MONITORING ASTEROID 2025 YR4{" "}
             </p>
             <div className="flex mt-4 group items-center gap-2">
               <p className=" font-semibold cursor-pointer text-lg">
@@ -217,9 +217,9 @@ const Banner = () => {
           <div className="  text-white w-full border-t border-t border-gray-600">
             <p
               style={{ fontFamily: "'DM Mono', monospace" }}
-              className="tracking-[4px] mt-4 text-xs"
+              className="tracking-[4px]  mt-4 text-xs"
             >
-               Monitoring Asteroid 2025 YR4{" "}
+               MONITORING ASTEROID 2025 YR4{" "}
             </p>
             <div className="flex mt-4 group items-center gap-2">
               <p className=" font-semibold cursor-pointer text-lg">
